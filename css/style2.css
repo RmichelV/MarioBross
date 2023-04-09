@@ -23,6 +23,7 @@ visibility: hidden;
 background-color: #b006ff;
 border-radius: 100%;
 }
+
 .nav-menu{
 /* height: 50px; */
 border: 1px red solid;
@@ -30,6 +31,7 @@ background-color: #c20101;
 padding: 0;
 margin: 0;
 }
+
 .nav-ul{
 display: flex;
 justify-content: space-around;
@@ -39,6 +41,7 @@ margin: 0;
 padding: 0px;
 
 }
+
 .nav-item{
 list-style: none;
 font-family: 'SuperMario256',sans-serif;
@@ -56,6 +59,7 @@ justify-content: center;
 align-items: center;
 flex-wrap: nowrap;
 }
+
 .nav-item:hover{
     background-color: #ff0000;
     font-size: 25px;
@@ -67,7 +71,79 @@ width: 30px;
 margin: 5px;
 }
 
+/*contenido*/
 
+.contenido{
+background-color: #333333;
+padding: 50px 0;
+}
+
+.title-reserv{
+color: white;
+font-family: 'SuperMario256';
+text-align: center;
+border-top: 5px solid white;
+border-bottom: 5px solid white;
+padding: 20px;
+}
+
+.form-container{
+display: flex;
+justify-content: space-between;
+}
+
+#reserva-form{
+color: white;
+display: flex;
+flex-direction: column;
+padding: 50px;
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+}
+
+#nombre, #correo, #cantidad{
+border: 4px solid rgb(184, 184, 184);
+border-radius: 20px;
+width: 600px;
+height: 50px;
+font-family: 20px;
+}
+
+
+#nombre{
+background-image: url('../img/icon-mario-nombre.webp');
+background-position: 15px;
+background-size: 35px 35px;
+background-repeat: no-repeat;
+padding-left: 60px;
+
+}
+
+#correo{
+    background-image: url('../img/flor-icon.png');
+    background-position: 15px;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    font-size: 25px;
+    }
+#cantidad{
+    background-image: url('../img/nube.png');
+    background-position: 15px;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    font-size: 25px;
+}
+
+.btn-enviar-reserva{
+border-radius: 50px;
+height: 70;
+text-transform: uppercase;
+border: 5px solid green;
+color: green;
+font-weight: bolder;
+}
 
 
 /*Responsive*/
