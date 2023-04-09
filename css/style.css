@@ -206,9 +206,7 @@ width: 100%;
 background-color: #ff0000a5;
 height: 100vh;
 padding-top: 110px;
-
 }
-
 
 .nav-ul{
 display:block;
@@ -225,7 +223,36 @@ border: #c10808 1px solid;
 margin: 0;
 }
 
+.trailer-components{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 }
+.img-container{
+align-items: center;
+justify-content: center;
+}
+
+.sinopsis-components{
+flex-direction: column;
+
+}
+ .sin {
+text-align: center;
+}
+
+.reserva{
+flex-direction: column-reverse;
+}
+
+}
+
+
+
+
+
+
+
 
 
 .active{
