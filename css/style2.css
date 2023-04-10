@@ -89,7 +89,9 @@ padding: 20px;
 
 .form-container{
 display: flex;
-justify-content: space-between;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
 }
 
 #reserva-form{
@@ -145,7 +147,14 @@ color: green;
 font-weight: bolder;
 }
 
-
+footer{
+    background-color: #c10808;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 /*Responsive*/
 @media(max-width: 1140px){
 .nav-item{

@@ -68,7 +68,14 @@ margin: 5px;
 }
 
 
-
+footer{
+    background-color: #c10808;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
 /*Responsive*/
 @media(max-width: 1140px){
